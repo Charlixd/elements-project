@@ -2,6 +2,7 @@ body {
     font-family: 'Barlow', sans-serif;
     text-align: center;
     font-size: 2em;
+    background: url(images/memphis-colorful.png)
 }
 
 
@@ -154,48 +155,53 @@ body {
     font-size: 1.5em;
     border: 2px solid green;
     padding: 12px 10px;
+    border-radius: 8px;
 }
 
 .button:hover {
     background-color: green;
     color:white;
+    border-radius: 8px;
 }
 
-
-    
-}
-
-#element{
-	border: 3px solid #00adee;
-    width: 80%;
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
     text-align: center;
-    float: left;
-    margin-left: .6em;
-    margin-right: .25em;
-   }
+    text-decoration: none;
+}
 
+/* social media hover effect */
+.fa:hover {
+    background: #c0c0c0;
+    color: black;
+}
 
+/* social media icons */
 
-            
-#element p {
-	margin: 0;
-	color: cornflowerblue;
+/* Facebook */
+.fa-facebook {
+    background: black;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: black;
+    color: white;
+}
+
+/* tumblr */
+.fa-tumblr {
+    background: black;
+    color: white;
+}
+
+/* github */
+.fa-github {
+    background: black;
+    color: white;
+}
     
-    
-}
-            
-.small {
-	font-size: 1em;
-    left: 10px;
-    
-}
-            
-.medium {
-	font-size: 2em;
- 
-}
-        
-.large {
-	font-size: 4em;
-
-}
